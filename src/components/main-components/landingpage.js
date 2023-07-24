@@ -1,5 +1,6 @@
 import logo from "../../image/logo.png";
 import main from "../../image/main.jpg";
+import "../../css/landingpage.css";
 // import "../../css/main-img.css";
 const LandingPage = () => {
   return (
@@ -27,7 +28,7 @@ const LandingPage = () => {
                   <a className="nav-link dropdown-toggle" href="# " role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Category
                   </a>
-                  <ul className="dropdown-menu">
+                  <ul className="dropdown-menu text-center">
                     <li>
                       <a className="dropdown-item" href="# ">
                         Shirt
@@ -73,11 +74,12 @@ const LandingPage = () => {
             </div>
           </div>
         </nav>
-        <div className="text-center text-white fw-bold fs-3" style={{ zIndex: "2", position: "absolute", top: "50%", left: "50%", width: "50%", height: "30%", marginTop: "-15%", marginLeft: "-25%" }}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, natus quasi! Facilis iure quas maiores placeat accusantium, velit, consequatur reprehenderit explicabo mollitia ipsa itaque consequuntur rem animi voluptatibus
-            modi est.
-          </p>
+        <div id="text-main" className="text-center text-white fw-bold fs-3">
+          <p>I only wear clothes because I can't walk around with nothing on, but they started calling me a fashionista.</p>
+          <br />
+          <p>- Kwon Ji Yong</p>
+          <br />
+          <button className="btn btn-outline-light fw-bold fs-5">Discover's My World</button>
         </div>
       </div>
       <div id="hot">

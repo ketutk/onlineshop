@@ -1,0 +1,40 @@
+#text-main {
+  z-index: 2;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 50%;
+  height: 30%;
+  margin-top: -15%;
+  margin-left: -25%;
+}
+
+#text-main p {
+  font-family: "Comic Sans MS", cursive;
+}
+
+@media only screen and (max-width: 991.98px) {
+  #text-main {
+    z-index: 2;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 70%;
+    height: 30%;
+    margin-top: -35%;
+    margin-left: -35%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  #text-main {
+    z-index: 2;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 90%;
+    height: 50%;
+    margin-top: -45%;
+    margin-left: -25%;
+  }
+}
