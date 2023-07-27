@@ -79,7 +79,9 @@ const LandingPage = () => {
           <br />
           <p>- Kwon Ji Yong</p>
           <br />
-          <button className="btn btn-outline-light fw-bold fs-5">Discover's My World</button>
+          <button className="btn btn-light outline fw-bold fs-2" style={{ boxShadow: "0 0rem 0.5rem #ffffff" }}>
+            Discover My World
+          </button>
         </div>
       </div>
       <div id="hot">
