@@ -13,6 +13,13 @@
   font-family: "Comic Sans MS", cursive;
 }
 
+#vision-img {
+  background-image: url(../image/vision-img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media only screen and (max-width: 991.98px) {
   #text-main {
     z-index: 2;

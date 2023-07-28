@@ -1,13 +1,14 @@
 import logo from "../../image/logo.png";
 import main from "../../image/main.jpg";
 import "../../css/landingpage.css";
+import TypeIt from "typeit-react";
 // import "../../css/main-img.css";
 const LandingPage = () => {
   return (
     <div>
       <div id="main">
         <div id="bg-image" className="text-center" style={{ height: "100vh", backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)), url(${main})`, backgroundPosition: "center" }}></div>
-        <nav className="navbar navbar-dark navbar-expand-md bg-dark border-bottom border-bottom-dark fixed-top bg-black" data-bs-theme="dark">
+        <nav className="navbar navbar-dark navbar-expand-md border-bottom border-bottom-dark fixed-top bg-black " data-bs-theme="dark">
           <div className="container-fluid">
             <a className="navbar-brand" href="# ">
               <img src={logo} alt="logo" style={{ maxWidth: "200px" }} />
@@ -48,6 +49,11 @@ const LandingPage = () => {
                 </li>
                 <li className="nav-item px-1">
                   <a className="nav-link" aria-current="page" href="# ">
+                    Galerry
+                  </a>
+                </li>
+                <li className="nav-item px-1">
+                  <a className="nav-link" aria-current="page" href="# ">
                     About
                   </a>
                 </li>
@@ -75,19 +81,33 @@ const LandingPage = () => {
           </div>
         </nav>
         <div id="text-main" className="text-center text-white fw-bold fs-3">
-          <p>I only wear clothes because I can't walk around with nothing on, but they started calling me a fashionista.</p>
+          <p>
+            I only wear clothes because I can't walk around with nothing on, but they started calling me a{" "}
+            <TypeIt
+              options={{
+                strings: ["Fashionista"],
+                speed: 300,
+                waitUntilVisible: true,
+                loop: true,
+                loopDelay: 1000,
+              }}
+            ></TypeIt>
+            .
+          </p>
           <br />
           <p>- Kwon Ji Yong</p>
           <br />
-          <button className="btn btn-light outline fw-bold fs-2" style={{ boxShadow: "0 0rem 0.5rem #ffffff" }}>
+          <a id="text-animate" className="btn btn-light outline fw-bold fs-2" href="#vision" style={{ boxShadow: "0 0rem 0.5rem #ffffff" }}>
             Discover My World
-          </button>
+          </a>
         </div>
       </div>
-      <div id="hot">
-        <div className="p-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, illo, sunt cupiditate necessitatibus ab facilis, sit eveniet tenetur alias id sint itaque quos magnam eos delectus deleniti. Ipsum, delectus error?
-        </div>
+
+      <div className="" id="hot">
+        <p className="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit. Eos animi sapiente quasi voluptatem necessitatibus atque eligendi perspiciatis nam laboriosam fuga, adipisci vero enim est inventore ipsum omnis a in
+          veritatis provident error magnam ratione facere amet alias! Doloribus, culpa atque reiciendis facilis vel exercitationem voluptate adipisci temporibus ducimus.
+        </p>
       </div>
     </div>
   );
