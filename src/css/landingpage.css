@@ -20,6 +20,24 @@
   background-size: cover;
 }
 
+.rows {
+  height: 33.333333333333333333%;
+}
+.cols-hot {
+  width: 19vw;
+  height: auto;
+  /* float: right;
+  height: 100%; */
+  margin: 1vw 1vw;
+  display: inline-block;
+}
+.mywrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
 @media only screen and (max-width: 991.98px) {
   #text-main {
     z-index: 2;
@@ -30,6 +48,9 @@
     height: 30%;
     margin-top: -35%;
     margin-left: -35%;
+  }
+  .cols-hot {
+    width: 33vw;
   }
 }
 
@@ -43,5 +64,9 @@
     height: 50%;
     margin-top: -45%;
     margin-left: -25%;
+  }
+
+  .cols-hot {
+    width: 44vw;
   }
 }

@@ -1,5 +1,6 @@
 import logo from "../../image/logo.png";
 import main from "../../image/main.jpg";
+import kwondo from "../../image/kwondo.jpeg";
 import "../../css/landingpage.css";
 import TypeIt from "typeit-react";
 // import "../../css/main-img.css";
@@ -97,17 +98,88 @@ const LandingPage = () => {
           <br />
           <p>- Kwon Ji Yong</p>
           <br />
-          <a id="text-animate" className="btn btn-light outline fw-bold fs-2" href="#vision" style={{ boxShadow: "0 0rem 0.5rem #ffffff" }}>
+          <a id="text-animate" className="btn btn-light outline fw-bold fs-2" href="#hot" style={{ boxShadow: "0 0rem 0.5rem #ffffff" }}>
             Discover My World
           </a>
         </div>
       </div>
 
-      <div className="" id="hot">
-        <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, suscipit. Eos animi sapiente quasi voluptatem necessitatibus atque eligendi perspiciatis nam laboriosam fuga, adipisci vero enim est inventore ipsum omnis a in
-          veritatis provident error magnam ratione facere amet alias! Doloribus, culpa atque reiciendis facilis vel exercitationem voluptate adipisci temporibus ducimus.
-        </p>
+      <div className="my-5" id="hot">
+        <h1 className="fw-bold mb-5">Hot Issues</h1>
+        <div class="mywrapper">
+          <div class="rows">
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+            <div class="card cols-hot">
+              <img src={kwondo} class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Kwondo</h5>
+                <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-dark">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
