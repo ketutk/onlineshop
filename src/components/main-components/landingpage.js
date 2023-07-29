@@ -113,7 +113,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -123,7 +123,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -133,7 +133,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -143,7 +143,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -153,7 +153,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -163,7 +163,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
@@ -173,7 +173,7 @@ const LandingPage = () => {
               <div class="card-body">
                 <h5 class="card-title">Kwondo</h5>
                 <p class="card-text text-wrap">Some quick example text to build on the Kwondo and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-outline-dark">
+                <a href="# " class="btn btn-outline-dark">
                   Go somewhere
                 </a>
               </div>
